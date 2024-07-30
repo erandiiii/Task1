@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .container {
+      flex-direction: row;
+    }
+}
+
+.containeri {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 32%;
+}
+
+.item-1 {
+    flex-wrap: wrap;
+    padding: 10px;
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ img{
+    
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    max-width:40%;
+}
+.item-2 h2{
+    margin-left: 10px;
+}
+
+.item-2 p{
+    text-align: start;
+    color: gray;
+}
+
+.item-2{
+    /* margin-left: 6%; */
+    font-size: small;
+    
+    
+}
