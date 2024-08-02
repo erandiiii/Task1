@@ -2,14 +2,12 @@ import '../components/Items.css'
 
 function Items(props) {
     return (
-        <div className='containeri'>
-            <div className='item-1'>
-                <img src={props.image} alt="" />
+        <div className='card2'>
+            <div className='img-wraper'>
+                <img className='imgja' src={props.image} alt="image loading..." />
             </div>
-            <div className='item-2'>
             <h2 >{props.title}</h2>
             <p>{props.description}</p>
-            </div>
         </div>
 
 
